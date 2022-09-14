@@ -1,0 +1,69 @@
+
+body{
+    background-color: rgb(207, 122, 10);
+    color:rgb(0, 0, 0);
+    font-family: 'Libre Baskerville', serif; }
+a{
+    padding: 10px;
+    border: 1px orange solid;
+    border-radius: 4px;
+    text-decoration: none;
+
+} 
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+   
+}
+
+.Decoration { text-decoration: underline;}
+
+
+.Box {
+    background-color: rgb(150, 84, 4);
+    width: 300px;
+    height: 535px; 
+margin: 0px auto;
+}
+    
+ul li { text-decoration: underline; }
+
+.img { width: 300px; height: 300px;}
+
+.centrar {
+    display: block;
+    margin: 0px auto;
+}
+.textcenter {
+    text-align: center;
+    text-decoration: underline;
+}
+.centrar{
+    text-align: center;
+}
+
+.logos  {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+.facebook {
+    background-color: blue;
+}
+
+.whatsapp {
+    background-color: rgb(13, 247, 4);
+}
+
+.instagram {
+    background-color: rgb(206, 55, 55);
+}
+
+.youtube {
+    background-color: red;
+}
